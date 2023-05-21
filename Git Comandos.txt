@@ -83,8 +83,13 @@ git pull --rebase  (Resolver conflictos del git a github)
 git rebase --continue (Continuar con el rebase)
 git config --global pull.rebase true (Configurar el global el rebase)
 git fetch (registros de commit de actualizaciones echas em github)
-
-
+/// uso de ramas con colaboradores del proyecto
+git branch -a (revisamos todas las ramas)
+git checkout rama-colaborador (posicionarnos en la rama del colaborador en el proyecto)
+git checkout main (volvemos a la rama principal)
+git merge rama-colaborador (unimos la rama principal ya posicionados con el nombre de la rama de colaborador que desemos unir los cambios)
+git push (actualizamos en github)
+git push origin rama-colaborador (subimos los cambios a github a la rama del colaborador)
 
 
 
