@@ -90,6 +90,10 @@ git checkout main (volvemos a la rama principal)
 git merge rama-colaborador (unimos la rama principal ya posicionados con el nombre de la rama de colaborador que desemos unir los cambios)
 git push (actualizamos en github)
 git push origin rama-colaborador (subimos los cambios a github a la rama del colaborador)
-
+////
+git pull --all (traego todas las ramas)
+git branch -a (Trae informacion remota de las ramas existentes)
+git checkout nombre-rama(accedo a la rama que esta en remoto)
+git remote prune origin (Borras basura de ramas borradas)
 
 
