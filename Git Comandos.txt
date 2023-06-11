@@ -96,4 +96,5 @@ git branch -a (Trae informacion remota de las ramas existentes)
 git checkout nombre-rama(accedo a la rama que esta en remoto)
 git remote prune origin (Borras basura de ramas borradas)
 git checkout v1.0.0 (nombre del tag para recuperar en caso de perder la rama)
+ git commit -am "Fixes #5: Hecho, Borre a la capitana marvel" (Borra un issues con commit usando Fixes #numero: mensaje)
 
